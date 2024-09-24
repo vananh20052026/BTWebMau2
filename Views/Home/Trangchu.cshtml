@@ -1,0 +1,94 @@
+﻿@{
+    Layout = "~/Views/Shared/_MasterLayout1.cshtml";
+}
+<style type="text/css">
+    #mainMenuPorduct {
+        text-align:center;
+        padding: 20px;
+    }
+
+    .mainProductContainer {
+        display: flex;
+        justify-content:center;
+        gap:30px;
+    }
+
+    .mainMenu {
+        width:350px;
+    }
+
+    .mainMenu img {
+        max-width:320px;
+    }
+
+    #featuredProduct {
+        text-align:center;
+    }
+
+    #featuredProduct h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: lightslategray;
+    }
+
+    .productContainer {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .product-item {
+        width:200px;
+    }
+
+    .productName {
+        color:lightsteelblue;
+    }
+
+    .product-item img {
+        max-width:200px;
+    }
+</style>
+<section id="mainMenuPorduct" class="content-section">
+    <div class="mainProductContainer">
+        <div class="mainMenu">
+            <img src="~/Content/Images/menu01.png" />
+        </div>
+        <div class="mainMenu">
+            <img src="~/Content/Images/menu02.png" />
+        </div>
+        <div class="mainMenu">
+            <img src="~/Content/Images/menu03.png" />
+        </div>
+    </div>
+</section>
+<section id="featuredProduct" class="content-section">
+    <h1>WEEKLY FEATURED PRODUCTS</h1>
+    <div class="productContainer">
+        <div class="product-item">
+            <img src="~/Content/Images/product1.png" />
+            <p class="productName">Women Fashio-Blue</p>
+            <h3 class="productPrice">$80.00</h3>
+        </div>
+        <div class="product-item">
+            <img src="~/Content/Images/product2.png" />
+            <p class="productName">Women Fashion</p>
+            <h3 class="productPrice">$80.00</h3>
+        </div>
+        <div class="product-item">
+            <img src="~/Content/Images/product3.png" />
+            <p class="productName">Women Fashion-White</p>
+            <h3 class="productPrice">$80.00</h3>
+        </div>
+        <div class="product-item">
+            <img src="~/Content/Images/product04.png" />
+            <p class="productName">Women Fashion-White</p>
+            <h3 class="productPrice">$80.00</h3>
+        </div>
+        <div class="product-item">
+            <img src="~/Content/Images/product5.png" />
+            <p class="productName">Women Fashion-Yellow</p>
+            <h3 class="productPrice">$80.00</h3>
+        </div>
+    </div>
+</section>
